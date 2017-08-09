@@ -1,32 +1,29 @@
 #include <iostream>
 #include <Windows.h>
-#include "Profiler.h"
+#include <locale.h>
+#include "CProfiler.h"
 
-#ifdef PROFILE_CHECK
-	#define PRO_BEGIN(x)  ProfileBegin(x)
-	#define PRO_END(x)  ProfileEnd(x)
-#else
-	#define PRO_BEGIN(x)
-	#define PRO_END(x)
-#endif
+
 
 void main()
 {
-	PRO_BEGIN("FreqTest");
-	Sleep(1000);
-	PRO_END("FreqTest");
+	setlocale(LC_ALL, "");
 
-	PRO_BEGIN("FreqTest");
+	PRO_BEGIN(L"FreqTest");
 	Sleep(1000);
-	PRO_END("FreqTest");
+	PRO_END(L"FreqTest");
 
-	PRO_BEGIN("FreqTest");
+	PRO_BEGIN(L"FreqTest");
 	Sleep(1000);
-	PRO_END("FreqTest");
+	PRO_END(L"FreqTest");
 
-	PRO_BEGIN("FreqTest");
+	PRO_BEGIN(L"FreqTest");
 	Sleep(1000);
-	PRO_END("FreqTest");
+	PRO_END(L"FreqTest");
 
-	ProfileOutText("FreqTest.txt");
+	PRO_BEGIN(L"FreqTest");
+	Sleep(1000);
+	PRO_END(L"FreqTest");
+
+	PRO_TEXT(L"FreqTest.txt");
 }

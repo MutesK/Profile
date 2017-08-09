@@ -1,8 +1,0 @@
-﻿  Profile.cpp
-c:\users\jmute\documents\github\study-cpp\profiler\profiler\profile.cpp(32): warning C4805: '==': 연산에 'long' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-c:\users\jmute\documents\github\study-cpp\profiler\profiler\profile.cpp(58): warning C4805: '==': 연산에 'long' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-c:\users\jmute\documents\github\study-cpp\profiler\profiler\profile.cpp(119): warning C4477: 'fprintf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 5의 형식이 '__int64'입니다.
-  c:\users\jmute\documents\github\study-cpp\profiler\profiler\profile.cpp(119): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
-  c:\users\jmute\documents\github\study-cpp\profiler\profiler\profile.cpp(119): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
-  Profiler.vcxproj -> C:\Users\JMute\Documents\GitHub\Study-Cpp\Profiler\Debug\Profiler.exe
-  Profiler.vcxproj -> C:\Users\JMute\Documents\GitHub\Study-Cpp\Profiler\Debug\Profiler.pdb (Full PDB)
